@@ -6,7 +6,7 @@ from airflow.operators.python import PythonOperator
 
 default_args = {
     'owner': 'codetops',
-    'retries': 6,
+    'retries': 5,
     'retry_delay': timedelta(minutes=5)
 }
 
