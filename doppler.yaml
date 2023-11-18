@@ -1,0 +1,3 @@
+setup:
+    project: dynamic-secrets-gitpod
+    config: dev
